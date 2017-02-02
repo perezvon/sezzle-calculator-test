@@ -5,10 +5,11 @@ export default class CalcResult extends Component {
         super (props);
     }
     render () {
+        console.log(this.props);
         return (
-            <div className='calc-result'>
-                {this.props.data} calculated by: {this.props.user}
-            </div>
+            <li className='calc-result'>
+                {this.props.calc.data} calculated by: {this.props.calc.user}
+            </li>
         )
     }
 }
