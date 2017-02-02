@@ -73,9 +73,10 @@ class App extends Component {
         <header>
           <h1>Calculator</h1>
         </header>
-        <ul>
+        <ul className="row">
           {this.renderCalculations()}
         </ul> 
+            <div className='row'>
             <div className='calculator col-md-6'>
                   <div className='row'>
                     <span className='calc-btn'>C</span>
@@ -111,6 +112,7 @@ class App extends Component {
                   </div>
                 </div>
             <UserInput />
+                </div>
       </div>
     );
   }
