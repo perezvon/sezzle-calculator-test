@@ -5,7 +5,6 @@ export default class CalcResult extends Component {
         super (props);
     }
     render () {
-        console.log(this.props);
         return (
             <li className='calc-result'>
                 {this.props.calc.data} calculated by: {this.props.calc.user}

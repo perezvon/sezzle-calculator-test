@@ -1,12 +1,9 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font: 1em Arial, sans-serif;
 }
 
 body {
-  text-align: center;
   background: #EBF4EB;
   background-size: cover;
   margin: 0;
@@ -26,12 +23,17 @@ a {
   color: inherit;
 }
 
+.user-input {
+    margin-top: 5vh;
+}
+
 .calculator {
+  text-align: center;
   display: inline-block;
   margin-top: 5vh;
   margin-bottom: 5vh;
   height: 420px;
-  width: 256px;
+  width: 450px;
   padding: 1em;
   background: #999;
   border-radius: 20px;

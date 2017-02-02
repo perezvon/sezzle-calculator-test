@@ -17,14 +17,13 @@ export default class UserInput extends Component {
             data: data,
             date: date
         }
-        console.log(calc);
-        Calculations.insert(calc);
+        Meteor.call('newCalculation', calc);
         $('.display').html('0');
     }
     
     render () {
         return (
-            <div className='col-md-6'>
+            <div className='col-md-6 user-input'>
                 <form onSubmit={this.handleSubmit}>
                     <label htmlFor="user">User Name: </label>
                 <input type="text" id="user" required></input>

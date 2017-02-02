@@ -69,7 +69,7 @@ class App extends Component {
     
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container-fluid app">
         <header>
           <h1>Calculator</h1>
         </header>
@@ -80,7 +80,7 @@ class App extends Component {
             <div className='calculator col-md-6'>
                   <div className='row'>
                     <span className='calc-btn'>C</span>
-                    <div className='display'>0</div>
+                    <span className='display'>0</span>
                   </div>
 
                   <div className='row'>
